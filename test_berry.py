@@ -28,5 +28,9 @@ class TestCompressIntegration(unittest.TestCase):
         self.assertEqual(compress([1, 2, 3]), 6)
         self.assertEqual(compress([1, 2, 3, 4]), 9)
 
+    def test_all_equal(self):
+        berries = [10, 10, 10, 10]
+        self.assertEqual(compress(berries), 30)
+
 if __name__ == "__main__":
     unittest.main()
