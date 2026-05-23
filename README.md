@@ -47,4 +47,4 @@ python berry\_compressor.py
 \## Запуск тестов
 
 python -m unittest test\_berry.py
-
+## Автор: Сандра
